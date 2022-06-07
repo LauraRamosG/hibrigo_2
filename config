@@ -1,0 +1,16 @@
+[pack]
+	buildbitmaps = false
+[core]
+	symlinks = false
+	repositoryformatversion = 0
+	filemode = false
+	logallrefupdates = true
+	bare = false
+[remote "origen"]
+	url = https://github.com/LauraRamosG/hibrigo_2.git
+	pushurl = https://github.com/LauraRamosG/hibrigo_2.git
+	fetch = +refs/heads/main:refs/remotes/origen/main
+	push = +refs/heads/main:refs/remotes/origen/main
+[branch "main"]
+	remote = origen
+	merge = refs/heads/main
